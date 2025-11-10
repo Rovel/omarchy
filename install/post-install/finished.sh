@@ -5,9 +5,9 @@ echo_in_style() {
 }
 
 clear
-echo
-tte -i ~/.local/share/omarchy/logo.txt --canvas-width 0 --anchor-text c --frame-rate 920 laseretch
-echo
+# echo
+cat ~/.local/share/omarchy/logo.txt # --canvas-width 0 --anchor-text c --frame-rate 920 laseretch
+# echo
 
 # Display installation time if available
 if [[ -f $OMARCHY_INSTALL_LOG_FILE ]] && grep -q "Total:" "$OMARCHY_INSTALL_LOG_FILE" 2>/dev/null; then
