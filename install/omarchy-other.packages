@@ -33,7 +33,7 @@ nvidia-utils
 linux-t2
 linux-t2-headers
 #t2fanrd
-t2iny-dfr
+#t2iny-dfr
 
 # Utilities and CLI tools
 btrfs-progs
