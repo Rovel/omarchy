@@ -1,53 +1,64 @@
+autoconf-archive
 # Packages installed outside of install/packages.sh or optional packages
 # Utilized by ISO builder to ensure package availability in the ISO
 
-autoconf-archive
+# Core system and libraries
 base
 base-devel
-broadcom-wl
-btrfs-progs
-dart
-dkms
-egl-wayland
-git
-gst-plugin-pipewire
-gtk4-layer-shell
-htop
-intltool
-iwd
-jdk-openjdk
+linux
+linux-firmware
+linux-headers
 libpulse
 libsass
 libva-intel-driver
 libva-nvidia-driver
-limine
-limine-mkinitcpio-hook
-limine-snapper-sync
-linux
-linux-firmware
-linux-headers
+lib32-nvidia-utils
+qt6-remoteobjects
+qt6-wayland
+autoconf-archive
+intltool
+sassc
+
+# Drivers and kernel modules
+broadcom-wl
+dkms
 macbook12-spi-driver-dkms
 nvidia-dkms
 nvidia-open-dkms
 nvidia-utils
-lib32-nvidia-utils
-pipewire
-pipewire-alsa
-pipewire-jack
-pipewire-pulse
-qt5-remoteobjects
-qt6-wayland
-sassc
-snapper
-webp-pixbuf-loader
+
+# T2 MacBook support packages
+#apple-bcm-firmware
+#apple-t2-audio-config
+linux-t2
+linux-t2-headers
+#t2fanrd
+#t2iny-dfr
+
+# Utilities and CLI tools
+btrfs-progs
+git
+htop
 wget
 yay-debug
 zram-generator
 
-# T2 MacBook support packages
-apple-bcm-firmware
-apple-t2-audio-config
-linux-t2
-linux-t2-headers
-t2fanrd
-tiny-dfr
+# Pipewire and related
+gst-plugin-pipewire
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+
+# Desktop and GUI
+egl-wayland
+gtk4-layer-shell
+limine
+limine-mkinitcpio-hook
+limine-snapper-sync
+snapper
+webp-pixbuf-loader
+
+# Programming
+dart
+jdk-openjdk
